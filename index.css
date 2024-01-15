@@ -28,8 +28,9 @@ body {
   margin: 16px;
 }
 
-.card-banner > img {
-  width: 100%;
+.card-banner,
+.card-banner img {
+  width: 400px;
   height: 250px;
   object-fit: cover;
 }

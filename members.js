@@ -3,6 +3,7 @@ const members = [
     name: "이름",
     link: "https://likelionhgu.github.io/12th-frontend/",
     github: "https://github.com/LikeLionHGU/12th-frontend",
+    image: "https://placehold.co/400x250",
   },
 ];
 
@@ -17,6 +18,9 @@ members.map((memberData) => {
   node
     .querySelector(".info-github > a")
     .setAttribute("href", memberData.github); // 깃헙주소 변경
+  node
+    .querySelector(".card-banner > a > img")
+    .setAttribute("src", memberData.image);
 
   // 사이트 주소 링크(href) 와 Text 를 바꾸기 위해
   // .link-a 태그를 모두 가져옴.
