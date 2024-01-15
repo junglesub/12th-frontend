@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+html,
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.member-card {
+  width: 400px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 16px;
+}
+
+.card-banner > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.member-info {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.member-info .info-name {
+  font-weight: bold;
+  line-height: 1;
+  font-size: 1.1em;
+}
+
+.member-info img {
+  display: block;
+  height: 32px;
+  width: 32px;
+  padding: 0;
+  margin: 0;
+}
