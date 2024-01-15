@@ -7,6 +7,10 @@ body {
   margin: auto;
 }
 
+.template {
+  display: none;
+}
+
 .title {
   text-align: center;
 }
@@ -35,11 +39,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  line-height: 1;
 }
 .member-info .info-name {
   font-weight: bold;
-  line-height: 1;
   font-size: 1.1em;
+  margin-bottom: 8px;
+}
+.member-info .info-link {
+  font-size: 0.8em;
 }
 
 .member-info img {
