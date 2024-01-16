@@ -1,9 +1,10 @@
 const members = [
   {
-    name: "박은주",
+    name: "박은주 ",
     link: "https://www.w3schools.com/",
     github: "https://github.com/ejPark43",
     image: "https://placehold.co/400x250",
+
   },
 ];
 
