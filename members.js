@@ -1,8 +1,8 @@
 const members = [
   {
-    name: "이름",
-    link: "https://likelionhgu.github.io/12th-frontend/",
-    github: "https://github.com/LikeLionHGU/12th-frontend",
+    name: "임종현",
+    link: "https://google.com",
+    github: "https://github.com/dkrehd0519",
     image: "https://placehold.co/400x250",
   },
 ];
