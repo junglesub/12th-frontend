@@ -1,7 +1,7 @@
 const members = [
   {
     name: "김하영",
-    link: "https://www.youtube.com/",
+    link: "https://hayoung04.github.io/Self-introduction/",
     github: "https://github.com/Hayoung04",
     image: "https://placehold.co/400x250",
   },
