@@ -1,5 +1,12 @@
 const members = [
   {
+    name: "최예라",
+    link: "https://yearachoi.github.io/Introduction-Mini-Project/",
+    github: "https://github.com/YearaChoi",
+    image:
+      "https://yearachoi.github.io/Introduction-Mini-Project/images/myphoto.jpeg",
+  },
+  {
     name: "박은주 ",
     link: "https://ejpark43.github.io/likeLion_assignment1/",
     github: "https://github.com/ejPark43",
