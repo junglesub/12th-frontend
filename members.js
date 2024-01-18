@@ -1,9 +1,7 @@
 const members = [
   {
-    name: "이름",
-    link: "https://sungyu0309.github.io/Profile/",
-    github: "https://github.com/sungyu0309/Profile",
     name: "한선규",
+    link: "https://sungyu0309.github.io/Profile/",
     github: "https://github.com/sungyu0309",
     image:
       "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D",
