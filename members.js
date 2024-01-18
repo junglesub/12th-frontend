@@ -1,9 +1,9 @@
 const members = [
   {
     name: "심성환",
-    link: "https://hisnet.handong.edu",
+    link: "https://hwan129.github.io/myprofile/",
     github: "https://github.com/hwan129",
-    image: "https://placehold.co/400x250",
+    image: "https://hwan129.github.io/myprofile/photos/photo4.jpg",
   },
 ];
 
