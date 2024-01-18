@@ -2,8 +2,9 @@ const members = [
   {
     name: "장한성",
     link: "https://likelionhgu.github.io/12th-frontend/",
-    github: "https://github.com/LikeLionHGU/12th-frontend",
-    image: "https://placehold.co/400x250",
+    github: "https://github.com/HansungJang/Lion_HGU_2024_Jang_profile",
+    image:
+      "https://cdn.imweb.me/upload/S201910012ff964777e0e3/62f9a36ea3cea.jpg",
   },
 ];
 
