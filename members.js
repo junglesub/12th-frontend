@@ -4,7 +4,7 @@ const members = [
     link: "https://bit.ly/423tfqk",
     github: "https://github.com/HansungJang",
     image:
-      "https://velog.velcdn.com/images/hi_potato/profile/6b19e4af-57c4-4d18-a097-5141beb75db8/image.png",
+      "https://img.freepik.com/premium-photo/a-potato-with-sunglasses-and-a-face-that-says-potato_916191-1794.jpg?w=1060",
   },
   {
     name: "이한나",
