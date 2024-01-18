@@ -4,7 +4,7 @@ const members = [
     link: "https://bit.ly/423tfqk",
     github: "https://github.com/HansungJang",
     image:
-      "https://cdn.imweb.me/upload/S201910012ff964777e0e3/62f9a36ea3cea.jpg",
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.naver.com%2Fominnoi%2F223114562504&psig=AOvVaw1RG02kJBDujojs1nwyfwaQ&ust=1705660732178000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCIu8Pf5oMDFQAAAAAdAAAAABAH",
   },
   {
     name: "이한나",
