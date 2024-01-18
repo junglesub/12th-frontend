@@ -1,9 +1,10 @@
 const members = [
   {
     name: "최예라",
-    link: "https://www.google.co.kr/?client=safari",
-    github: "https://github.com/LikeLionHGU/12th-frontend",
-    image: "https://placehold.co/400x250",
+    link: "https://yearachoi.github.io/Introduction-Mini-Project/",
+    github: "https://github.com/YearaChoi",
+    image:
+      "https://yearachoi.github.io/Introduction-Mini-Project/images/myphoto.jpeg",
   },
 ];
 
