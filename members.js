@@ -1,9 +1,9 @@
 const members = [
   {
     name: "이한나",
-    link: "https://likelionhgu.github.io/12th-frontend/", // 추후 배포한 사이트 링크
+    link: "https://leehannaa.github.io/likeLion-profile/", // 추후 배포한 사이트 링크
     github: "https://github.com/LeeHannaa",
-    image: "https://placehold.co/400x250",
+    image: "https://avatars.githubusercontent.com/u/103620720?v=4",
   },
 ];
 
