@@ -57,12 +57,6 @@ const members = [
       "https://ejpark43.github.io/likeLion_assignment1/damgomDance_gif.gif",
   },
   {
-    name: "유정섭",
-    link: "https://skwldwld.github.io/p0/",
-    github: "https://github.com/skwldwld",
-    image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
-  },
-  {
      name: "김하영",
     link: "https://hayoung04.github.io/Self-introduction/",
     github: "https://github.com/Hayoung04",
