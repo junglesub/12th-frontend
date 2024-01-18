@@ -1,9 +1,9 @@
 const members = [
   {
     name: "유정섭",
-    link: "https://google.com",
-    github: "https://github.com/junglesub",
-    image: "https://placehold.co/400x250",
+    link: "https://skwldwld.github.io/p0/",
+    github: "https://github.com/skwldwld",
+    image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
   },
 ];
 
