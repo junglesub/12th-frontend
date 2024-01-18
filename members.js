@@ -1,9 +1,9 @@
 const members = [
   {
     name: "김예지",
-    link: "https://www.instagram.com/najjingjjing/",
+    link: "https://skwldwld.github.io/p0",
     github: "https://github.com/skwldwld",
-    image: "https://placehold.co/400x250",
+    image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
   },
 ];
 
