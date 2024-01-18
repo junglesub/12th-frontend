@@ -1,5 +1,11 @@
 const members = [
   {
+    name: "김예지",
+    link: "https://skwldwld.github.io/p0",
+    github: "https://github.com/skwldwld",
+    image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
+  },
+  {
     name: "김하은",
     link: "https://google.com",
     github: "https://github.com/HAEOII",
