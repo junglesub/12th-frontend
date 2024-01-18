@@ -1,11 +1,18 @@
 const members = [
   {
+    name: "김하은",
+    link: "https://google.com",
+    github: "https://github.com/HAEOII",
+    image:
+      " https://haeoii.github.io/basic-setting/img/KakaoTalk_Photo_2024-01-07-14-47-27%20001jpeg.jpeg",
+  },
+  {
     name: "한선규",
     link: "https://sungyu0309.github.io/Profile/",
     github: "https://github.com/sungyu0309",
     image:"https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D",
   },
-    name: "심성환",
+  { name: "심성환",
     link: "https://hwan129.github.io/myprofile/",
     github: "https://github.com/hwan129",
     image: "https://hwan129.github.io/myprofile/photos/photo4.jpg",
@@ -55,6 +62,7 @@ const members = [
     github: "https://github.com/Hayoung04",
     image:
       "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160218_67%2Fj23486_14557676251908Cd6S_JPEG%2F1430311276.57.jpg&type=sc960_832",
+
   },
 ];
 
