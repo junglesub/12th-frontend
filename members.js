@@ -5,6 +5,39 @@ const members = [
     github: "https://github.com/dkrehd0519",
     image: "https://dkrehd0519.github.io/ll-test/image/me.jpg",
   },
+  {
+    name: "장한성",
+    link: "https://hansungjang.github.io/Lion_HGU_2024_Jang_profile/",
+    github: "https://github.com/HansungJang",
+    image:
+      "https://cdn.imweb.me/upload/S201910012ff964777e0e3/62f9a36ea3cea.jpg",
+  },
+  {
+    name: "이한나",
+    link: "https://leehannaa.github.io/likeLion-profile/", // 추후 배포한 사이트 링크
+    github: "https://github.com/LeeHannaa",
+    image: "https://avatars.githubusercontent.com/u/103620720?v=4",
+  },
+  {
+    name: "최예라",
+    link: "https://yearachoi.github.io/Introduction-Mini-Project/",
+    github: "https://github.com/YearaChoi",
+    image:
+      "https://yearachoi.github.io/Introduction-Mini-Project/images/myphoto.jpeg",
+  },
+  {
+    name: "박은주 ",
+    link: "https://ejpark43.github.io/likeLion_assignment1/",
+    github: "https://github.com/ejPark43",
+    image:
+      "https://ejpark43.github.io/likeLion_assignment1/damgomDance_gif.gif",
+  },
+  {
+    name: "유정섭",
+    link: "https://skwldwld.github.io/p0/",
+    github: "https://github.com/skwldwld",
+    image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
+  },
 ];
 
 const membersNode = document.querySelector("div.members");
