@@ -3,7 +3,8 @@ const members = [
     name: "김하영",
     link: "https://hayoung04.github.io/Self-introduction/",
     github: "https://github.com/Hayoung04",
-    image: "https://placehold.co/400x250",
+    image:
+      "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160218_67%2Fj23486_14557676251908Cd6S_JPEG%2F1430311276.57.jpg&type=sc960_832",
   },
 ];
 
