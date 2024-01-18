@@ -3,7 +3,8 @@ const members = [
     name: "김하은",
     link: "https://google.com",
     github: "https://github.com/HAEOII",
-    image: "https://placehold.co/400x250",
+    image:
+      " https://haeoii.github.io/basic-setting/img/KakaoTalk_Photo_2024-01-07-14-47-27%20001jpeg.jpeg",
   },
 ];
 
