@@ -1,7 +1,7 @@
 const members = [
   {
     name: "장한성",
-    link: "https://hansungjang.github.io/Lion_HGU_2024_Jang_profile/",
+    link: "https://bit.ly/423tfqk",
     github: "https://github.com/HansungJang",
     image:
       "https://cdn.imweb.me/upload/S201910012ff964777e0e3/62f9a36ea3cea.jpg",
