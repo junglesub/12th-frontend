@@ -1,5 +1,11 @@
 const members = [
   {
+    name: "심성환",
+    link: "https://hwan129.github.io/myprofile/",
+    github: "https://github.com/hwan129",
+    image: "https://hwan129.github.io/myprofile/photos/photo4.jpg",
+  },
+  {
     name: "임종현",
     link: "https://dkrehd0519.github.io/ll-test/",
     github: "https://github.com/dkrehd0519",
