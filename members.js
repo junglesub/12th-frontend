@@ -6,6 +6,19 @@ const members = [
     image:
       "https://yearachoi.github.io/Introduction-Mini-Project/images/myphoto.jpeg",
   },
+  {
+    name: "박은주 ",
+    link: "https://ejpark43.github.io/likeLion_assignment1/",
+    github: "https://github.com/ejPark43",
+    image:
+      "https://ejpark43.github.io/likeLion_assignment1/damgomDance_gif.gif",
+  },
+  {
+    name: "유정섭",
+    link: "https://skwldwld.github.io/p0/",
+    github: "https://github.com/skwldwld",
+    image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
+  },
 ];
 
 const membersNode = document.querySelector("div.members");
