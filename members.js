@@ -1,10 +1,10 @@
 const members = [
   {
     name: "박은주 ",
-    link: "https://www.w3schools.com/",
+    link: "https://ejpark43.github.io/likeLion_assignment1/",
     github: "https://github.com/ejPark43",
-    image: "https://placehold.co/400x250",
-
+    image:
+      "https://ejpark43.github.io/likeLion_assignment1/damgomDance_gif.gif",
   },
 ];
 
