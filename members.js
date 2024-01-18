@@ -1,9 +1,9 @@
 const members = [
   {
     name: "임종현",
-    link: "https://google.com",
+    link: "https://dkrehd0519.github.io/ll-test/",
     github: "https://github.com/dkrehd0519",
-    image: "https://placehold.co/400x250",
+    image: "https://dkrehd0519.github.io/ll-test/image/me.jpg",
   },
 ];
 
