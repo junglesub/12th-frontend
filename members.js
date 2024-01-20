@@ -4,8 +4,8 @@ const members = [
     link: "https://skwldwld.github.io/p0",
     github: "https://github.com/skwldwld",
     image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -14,8 +14,8 @@ const members = [
     github: "https://github.com/HAEOII",
     image:
       " https://haeoii.github.io/basic-setting/img/KakaoTalk_Photo_2024-01-07-14-47-27%20001jpeg.jpeg",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -24,8 +24,8 @@ const members = [
     github: "https://github.com/sungyu0309",
     image:
       "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -33,8 +33,8 @@ const members = [
     link: "https://hwan129.github.io/myprofile/",
     github: "https://github.com/hwan129",
     image: "https://hwan129.github.io/myprofile/photos/photo4.jpg",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -42,8 +42,8 @@ const members = [
     link: "https://dkrehd0519.github.io/ll-test/",
     github: "https://github.com/dkrehd0519",
     image: "https://dkrehd0519.github.io/ll-test/image/me.jpg",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -52,8 +52,8 @@ const members = [
     github: "https://github.com/HansungJang",
     image:
       "https://img.freepik.com/premium-photo/a-potato-with-sunglasses-and-a-face-that-says-potato_916191-1794.jpg?w=1060",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -72,8 +72,8 @@ const members = [
     github: "https://github.com/YearaChoi",
     image:
       "https://yearachoi.github.io/Introduction-Mini-Project/images/myphoto.jpeg",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -82,8 +82,8 @@ const members = [
     github: "https://github.com/ejPark43",
     image:
       "https://ejpark43.github.io/likeLion_assignment1/damgomDance_gif.gif",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -92,8 +92,8 @@ const members = [
     github: "https://github.com/Hayoung04",
     image:
       "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160218_67%2Fj23486_14557676251908Cd6S_JPEG%2F1430311276.57.jpg&type=sc960_832",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
 ];
