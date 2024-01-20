@@ -6,14 +6,15 @@
 }
 
 .members .member-card {
-  width: 400px;
+  width: 250px;
+  height: 400px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin: 16px;
 }
 
 .members .card-banner,
 .members .card-banner img {
-  width: 400px;
+  width: 250px;
   height: 250px;
   object-fit: cover;
 }
