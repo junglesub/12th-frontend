@@ -92,9 +92,9 @@ const members = [
     github: "https://github.com/Hayoung04",
     image:
       "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160218_67%2Fj23486_14557676251908Cd6S_JPEG%2F1430311276.57.jpg&type=sc960_832",
-    title: "",
+    title: "d",
     githuNickname: "",
-    selfPR: "",
+    selfPR: "d",
   },
 ];
 
@@ -114,6 +114,10 @@ members.map((memberData) => {
     .querySelector(".card-banner > img")
     .setAttribute("src", memberData.image);
 
+  node
+    .querySelector(".card-banner")
+    .addEventListener("click", () => openModal(memberData));
+
   // 사이트 주소 링크(href) 와 Text 를 바꾸기 위해
   // .link-a 태그를 모두 가져옴.
   node.querySelectorAll(".link-a").forEach((el) => {
@@ -127,16 +131,16 @@ members.map((memberData) => {
       el.innerText = memberData.link;
   });
 
-  const modal = modalNode.cloneNode(true);
-  modal.querySelector(".modal_img > img").setAttribute("src", memberData.image);
-  modal.querySelector(".modal_title > h2").innerText = memberData.title;
-  modal.querySelector(".modal_selfPR > p").innerText = memberData.selfPR;
-
   membersNode.appendChild(node); // 만들어진 node 를 다시 추가
 });
 
-function openModal() {
+// 이렇게하면 아이디 접근이 안됨 이유 모르겠음
+
+function openModal(memberData) {
   const modal = document.querySelector(".modal");
+  modal.querySelector(".modal_img > img").setAttribute("src", memberData.image);
+  modal.querySelector(".modal_title").innerText = memberData.title;
+  modal.querySelector(".modal_selfPR").innerText = memberData.selfPR;
   console.log("click");
   modal.style.display = "flex";
 }
