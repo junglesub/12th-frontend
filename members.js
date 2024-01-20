@@ -63,7 +63,8 @@ const members = [
     image: "https://avatars.githubusercontent.com/u/103620720?v=4",
     title: "Think different",
     githuNickname: "Leehannaa",
-    selfPR: "",
+    selfPR:
+      "다른 생각으로 발전해나가는 개발자, 이한나입니다. \n3주간의 기간 동안 협력하여 우리만의 프로젝트를 완성시켜 나가겠습니다.🔥\n‘당당한 개발자, 새로운 개발자’ 모습에 한 발자국 더 가까워져 있는 모습을 기대합니다.👊🏻",
   },
   {
     name: "🐥 최예라",
@@ -109,7 +110,7 @@ members.map((memberData) => {
     .querySelector(".info-github > a")
     .setAttribute("href", memberData.github); // 깃헙주소 변경
   node
-    .querySelector(".card-banner > a > img")
+    .querySelector(".card-banner > img")
     .setAttribute("src", memberData.image);
 
   // 사이트 주소 링크(href) 와 Text 를 바꾸기 위해
@@ -125,12 +126,15 @@ members.map((memberData) => {
       el.innerText = memberData.link;
   });
 
+  node.querySelector("modal_img > img").setAttribute("src", memberData.image);
+  node.querySelector("modal_title > h2").innerText = memberData.title;
+  node.querySelector("modal_selfPR > p").innerText = memberData.selfPR;
+
   membersNode.appendChild(node); // 만들어진 node 를 다시 추가
 });
 
-const modal = document.querySelector(".modal");
-const btnOpenModal = document.querySelector("#btn-open-modal");
-
-btnOpenModal.addEventListener("click", () => {
+function openModal() {
+  const modal = document.querySelector(".modal");
+  console.log("click");
   modal.style.display = "flex";
-});
+}
