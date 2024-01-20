@@ -127,3 +127,10 @@ members.map((memberData) => {
 
   membersNode.appendChild(node); // 만들어진 node 를 다시 추가
 });
+
+const modal = document.querySelector(".modal");
+const btnOpenModal = document.querySelector("#btn-open-modal");
+
+btnOpenModal.addEventListener("click", () => {
+  modal.style.display = "flex";
+});
