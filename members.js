@@ -100,6 +100,7 @@ const members = [
 
 const membersNode = document.querySelector("div.members");
 const originNode = document.querySelector("div.member-card");
+const modalNode = document.querySelector("div.modal");
 
 // 멤버 데이터 요소마다 반복
 members.map((memberData) => {
@@ -126,9 +127,10 @@ members.map((memberData) => {
       el.innerText = memberData.link;
   });
 
-  node.querySelector("modal_img > img").setAttribute("src", memberData.image);
-  node.querySelector("modal_title > h2").innerText = memberData.title;
-  node.querySelector("modal_selfPR > p").innerText = memberData.selfPR;
+  const modal = modalNode.cloneNode(true);
+  modal.querySelector(".modal_img > img").setAttribute("src", memberData.image);
+  modal.querySelector(".modal_title > h2").innerText = memberData.title;
+  modal.querySelector(".modal_selfPR > p").innerText = memberData.selfPR;
 
   membersNode.appendChild(node); // 만들어진 node 를 다시 추가
 });
@@ -138,3 +140,7 @@ function openModal() {
   console.log("click");
   modal.style.display = "flex";
 }
+
+window.addEventListener("click", (e) => {
+  e.target === modalNode ? (modalNode.style.display = "none") : false;
+});
