@@ -109,7 +109,7 @@ members.map((memberData) => {
     .querySelector(".info-github > a")
     .setAttribute("href", memberData.github); // 깃헙주소 변경
   node
-    .querySelector(".card-banner > a > img")
+    .querySelector(".card-banner > img")
     .setAttribute("src", memberData.image);
 
   // 사이트 주소 링크(href) 와 Text 를 바꾸기 위해
