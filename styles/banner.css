@@ -1,2 +1,27 @@
-.banner {
+.banner-3 h2 {
+  font-size: 40px;
+}
+.banner-3 h3 {
+  font-size: 30px;
+}
+
+.slider {
+  width: 90%;
+  height: 450px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-image: no-repeat url("");
+  width: 100%;
+}
+.slide {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.banner-3 {
+  text-align: center;
+  padding-top: 60px;
 }
