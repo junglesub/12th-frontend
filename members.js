@@ -45,7 +45,7 @@ const members = [
     name: "🍓 임종현",
     link: "https://dkrehd0519.github.io/ll-test/",
     github: "https://github.com/dkrehd0519",
-    image: "https://dkrehd0519.github.io/ll-test/image/me.jpg",
+    image: "https://avatars.githubusercontent.com/u/103620720?v=4",
     title: "Don't dream, Be it",
     githuNickname: "dkrehd0519",
     selfPR:
@@ -55,8 +55,7 @@ const members = [
     name: "🤖 장한성",
     link: "https://bit.ly/423tfqk",
     github: "https://github.com/HansungJang",
-    image:
-      "https://img.freepik.com/premium-photo/a-potato-with-sunglasses-and-a-face-that-says-potato_916191-1794.jpg?w=1060",
+    image: "https://avatars.githubusercontent.com/u/103620720?v=4",
     title: "Every dog has his days",
     githuNickname: "HansungJang",
     selfPR:
@@ -76,8 +75,7 @@ const members = [
     name: "🐥 최예라",
     link: "https://yearachoi.github.io/Introduction-Mini-Project/",
     github: "https://github.com/YearaChoi",
-    image:
-      "https://yearachoi.github.io/Introduction-Mini-Project/images/myphoto.jpeg",
+    image: "https://avatars.githubusercontent.com/u/103620720?v=4",
     title: "Full of passion",
     githuNickname: "YearaChoi",
     selfPR:
