@@ -4,8 +4,8 @@ const members = [
     link: "https://skwldwld.github.io/p0",
     github: "https://github.com/skwldwld",
     image: "https://skwldwld.github.io/p0/img/favorite/dog.JPG",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -14,8 +14,8 @@ const members = [
     github: "https://github.com/HAEOII",
     image:
       " https://haeoii.github.io/basic-setting/img/KakaoTalk_Photo_2024-01-07-14-47-27%20001jpeg.jpeg",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -24,8 +24,8 @@ const members = [
     github: "https://github.com/sungyu0309",
     image:
       "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -33,8 +33,8 @@ const members = [
     link: "https://hwan129.github.io/myprofile/",
     github: "https://github.com/hwan129",
     image: "https://hwan129.github.io/myprofile/photos/photo4.jpg",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -63,7 +63,8 @@ const members = [
     image: "https://avatars.githubusercontent.com/u/103620720?v=4",
     title: "Think different",
     githuNickname: "Leehannaa",
-    selfPR: "",
+    selfPR:
+      "다른 생각으로 발전해나가는 개발자, 이한나입니다. \n3주간의 기간 동안 협력하여 우리만의 프로젝트를 완성시켜 나가겠습니다.🔥\n‘당당한 개발자, 새로운 개발자’ 모습에 한 발자국 더 가까워져 있는 모습을 기대합니다.👊🏻",
   },
   {
     name: "🐥 최예라",
@@ -71,8 +72,8 @@ const members = [
     github: "https://github.com/YearaChoi",
     image:
       "https://yearachoi.github.io/Introduction-Mini-Project/images/myphoto.jpeg",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -81,8 +82,8 @@ const members = [
     github: "https://github.com/ejPark43",
     image:
       "https://ejpark43.github.io/likeLion_assignment1/damgomDance_gif.gif",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "",
+    githuNickname: "",
     selfPR: "",
   },
   {
@@ -91,14 +92,15 @@ const members = [
     github: "https://github.com/Hayoung04",
     image:
       "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160218_67%2Fj23486_14557676251908Cd6S_JPEG%2F1430311276.57.jpg&type=sc960_832",
-    title: "Think different",
-    githuNickname: "Leehannaa",
-    selfPR: "",
+    title: "d",
+    githuNickname: "",
+    selfPR: "d",
   },
 ];
 
 const membersNode = document.querySelector("div.members");
 const originNode = document.querySelector("div.member-card");
+const modalNode = document.querySelector("div.modal");
 
 // 멤버 데이터 요소마다 반복
 members.map((memberData) => {
@@ -111,8 +113,12 @@ members.map((memberData) => {
   node.querySelector(".info-github > a").innerText = memberData.githuNickname; // 각자 githubnickname에 github주소걸기
   node.querySelector(".info-introduce > p").innerText = memberData.title; // title 변경
   node
-    .querySelector(".card-banner > a > img")
+    .querySelector(".card-banner > img")
     .setAttribute("src", memberData.image);
+
+  node
+    .querySelector(".card-banner")
+    .addEventListener("click", () => openModal(memberData));
 
   // 사이트 주소 링크(href) 와 Text 를 바꾸기 위해
   // .link-a 태그를 모두 가져옴.
@@ -127,4 +133,19 @@ members.map((memberData) => {
   });
 
   membersNode.appendChild(node); // 만들어진 node 를 다시 추가
+});
+
+// 이렇게하면 아이디 접근이 안됨 이유 모르겠음
+
+function openModal(memberData) {
+  const modal = document.querySelector(".modal");
+  modal.querySelector(".modal_img > img").setAttribute("src", memberData.image);
+  modal.querySelector(".modal_title").innerText = memberData.title;
+  modal.querySelector(".modal_selfPR").innerText = memberData.selfPR;
+  console.log("click");
+  modal.style.display = "flex";
+}
+
+window.addEventListener("click", (e) => {
+  e.target === modalNode ? (modalNode.style.display = "none") : false;
 });
