@@ -147,6 +147,7 @@ members.map((memberData) => {
 // 이렇게하면 아이디 접근이 안됨 이유 모르겠음
 
 function openModal(memberData) {
+  document.body.style.overflow = "hidden";
   const modal = document.querySelector(".modal");
   modal.querySelector(".modal_img > img").setAttribute("src", memberData.image);
   modal.querySelector(".modal_title").innerText = memberData.title;
@@ -156,5 +157,8 @@ function openModal(memberData) {
 }
 
 window.addEventListener("click", (e) => {
-  e.target === modalNode ? (modalNode.style.display = "none") : false;
+  e.target === modalNode
+    ? ((modalNode.style.display = "none"),
+      (document.body.style.overflow = "auto"))
+    : false;
 });
