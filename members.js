@@ -48,7 +48,8 @@ const members = [
     image: "https://dkrehd0519.github.io/ll-test/image/me.jpg",
     title: "Don't dream, Be it",
     githuNickname: "dkrehd0519",
-    selfPR: "",
+    selfPR:
+      "상상력이 풍부한 개발자 임종현입니다😄\n끊임없이 기본을 다지고 효율적인 방법을 모색해서 더 나은 개발자가 되려고 노력하겠습니다!\n💻꿈을 꾸기만 하는 것이 아니라\n현실로 이뤄내는 사람이 되겠습니다. 😎",
   },
   {
     name: "🤖 장한성",
