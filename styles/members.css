@@ -41,6 +41,7 @@
 .members .member-info {
   padding: 8px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   line-height: 2;
 }
