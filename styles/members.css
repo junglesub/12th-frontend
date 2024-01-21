@@ -10,13 +10,20 @@
   height: 400px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin: 16px;
+  border-radius: 5px;
 }
 
-.members .card-banner,
-.members .card-banner img {
-  width: 250px;
+.members .card-banner {
   height: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.members .card-banner img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  /*border-top-left-radius: 5px;
+  border-top-right-radius: 5px;*/
 }
 .members .card-banner img:hover {
   filter: brightness(0.9);
@@ -48,7 +55,7 @@
 
 .members .member-info .info-link a {
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1.1em;
   text-decoration: none;
   color: black;
   border-radius: 3px;
