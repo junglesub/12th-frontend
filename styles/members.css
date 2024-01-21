@@ -8,10 +8,8 @@
 .members .member-card {
   width: 250px;
   height: 400px;
-  background-color: white;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin: 16px;
-  filter: brightness(1);
 }
 
 .members .card-banner,
@@ -93,7 +91,10 @@
 .members .member-info .info-name {
   font-weight: bold;
   font-size: 1.1em;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+}
+.members .member-info .info-link {
+  font-size: 0.8em;
 }
 
 .members .member-info img {

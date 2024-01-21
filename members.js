@@ -156,8 +156,5 @@ function openModal(memberData) {
 }
 
 window.addEventListener("click", (e) => {
-  e.target === modalNode
-    ? ((modalNode.style.display = "none"),
-      (document.body.style.overflow = "auto"))
-    : false;
+  e.target === modalNode ? (modalNode.style.display = "none") : false;
 });
