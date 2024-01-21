@@ -20,8 +20,9 @@
   height: 250px;
   object-fit: cover;
 }
-.members .member-card:hover {
+.members .card-banner img:hover {
   filter: brightness(0.9);
+  cursor: pointer;
 }
 /*.members .member-card:hover .card-banner img {
   width: 270px;
@@ -59,6 +60,7 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+
 .members .member-info .info-github a {
   font-weight: bold;
   font-size: 0.9em;
@@ -70,6 +72,10 @@
   padding-bottom: 5px;
   padding-left: 8px;
   padding-right: 8px;
+}
+.members .member-info a:hover {
+  filter: brightness(0.9);
+  font-size: 1.1em;
 }
 
 .members .member-info .info-introduce p {

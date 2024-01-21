@@ -46,10 +46,9 @@ const members = [
     link: "https://dkrehd0519.github.io/ll-test/",
     github: "https://github.com/dkrehd0519",
     image: "https://dkrehd0519.github.io/ll-test/image/me.jpg",
-    title: "Think different",
+    title: "Don't dream, Be it",
     githuNickname: "dkrehd0519",
-    selfPR:
-      "다른 생각으로 발전해나가는 개발자, 이한나입니다. \n3주간의 기간 동안 협력하여 우리만의 프로젝트를 완성시켜 나가겠습니다.🔥\n‘당당한 개발자, 새로운 개발자’ 모습에 한 발자국 더 가까워져 있는 모습을 기대합니다.👊🏻",
+    selfPR: "",
   },
   {
     name: "🤖 장한성",
