@@ -8,8 +8,10 @@
 .members .member-card {
   width: 250px;
   height: 400px;
+  background-color: white;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   margin: 16px;
+  filter: brightness(1);
 }
 
 .members .card-banner,
@@ -18,21 +20,74 @@
   height: 250px;
   object-fit: cover;
 }
-
+.members .member-card:hover {
+  filter: brightness(0.9);
+}
+/*.members .member-card:hover .card-banner img {
+  width: 270px;
+  height: 250px;
+}
+.members .member-card:hover .member-info .info-name{
+  font-size: 1.3em;
+}
+.members .member-card:hover .member-info .info-link a {
+  font-size: 1.1em;
+}
+.members .member-card:hover .member-info .info-github a {
+  font-size: 1.1em;
+}
+.members .member-card:hover .member-info .info-introduce {
+  font-size: 1.1em;
+}*/
 .members .member-info {
   padding: 8px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  line-height: 1;
+  line-height: 2;
+}
+
+.members .member-info .info-link a {
+  font-weight: bold;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  background-color: antiquewhite;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.members .member-info .info-github a {
+  font-weight: bold;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  background-color: antiquewhite;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.members .member-info .info-introduce p {
+  display: inline-block;
+  width: auto;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: black;
+  border-radius: 3px;
+  background-color: antiquewhite;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0;
 }
 .members .member-info .info-name {
   font-weight: bold;
   font-size: 1.1em;
-  margin-bottom: 8px;
-}
-.members .member-info .info-link {
-  font-size: 0.8em;
+  margin-bottom: 5px;
 }
 
 .members .member-info img {

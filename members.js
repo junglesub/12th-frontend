@@ -43,7 +43,7 @@ const members = [
     github: "https://github.com/dkrehd0519",
     image: "https://dkrehd0519.github.io/ll-test/image/me.jpg",
     title: "Think different",
-    githuNickname: "Leehannaa",
+    githuNickname: "dkrehd0519",
     selfPR: "",
   },
   {
@@ -52,8 +52,8 @@ const members = [
     github: "https://github.com/HansungJang",
     image:
       "https://img.freepik.com/premium-photo/a-potato-with-sunglasses-and-a-face-that-says-potato_916191-1794.jpg?w=1060",
-    title: "Think different",
-    githuNickname: "Leehannaa",
+    title: "Every dog has his days",
+    githuNickname: "HansungJang",
     selfPR: "",
   },
   {
@@ -108,6 +108,8 @@ members.map((memberData) => {
   node
     .querySelector(".info-github > a")
     .setAttribute("href", memberData.github); // 깃헙주소 변경
+  node.querySelector(".info-github > a").innerText = memberData.githuNickname; // 각자 githubnickname에 github주소걸기
+  node.querySelector(".info-introduce > p").innerText = memberData.title; // title 변경
   node
     .querySelector(".card-banner > a > img")
     .setAttribute("src", memberData.image);
@@ -116,13 +118,12 @@ members.map((memberData) => {
   // .link-a 태그를 모두 가져옴.
   node.querySelectorAll(".link-a").forEach((el) => {
     el.setAttribute("href", memberData.link);
-
     // 하위 노드 개수가 1개이고 하위 노드가 텍스트 노드일경우 텍스트도 변경
     if (
       el.childNodes.length == 1 &&
       el.childNodes[0].nodeType === Node.TEXT_NODE
     )
-      el.innerText = memberData.link;
+      el.innerText = "#자기소개";
   });
 
   membersNode.appendChild(node); // 만들어진 node 를 다시 추가
