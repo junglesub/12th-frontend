@@ -10,12 +10,12 @@
 
 /* font-family: 'Noto Sans', sans-serif; */
 
-body {
+.header {
   margin: 0;
   font-family: "JalnanGothic", sans-serif;
 }
 
-a {
+.header a {
   text-decoration: none;
   color: white;
 }
