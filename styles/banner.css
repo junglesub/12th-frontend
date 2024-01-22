@@ -51,19 +51,58 @@
   margin-left: 2rem;
   margin-right: 1rem;
   width: 220px;
+  animation-name: animate1;
+  animation-duration: 2s;
+}
+@keyframes animate1 {
+  0% {
+    background-color: #fff53d;
+  }
+  50% {
+    background-color: #37a6ff;
+  }
+  100% {
+    background-color: #37a6ff;
+  }
 }
 .photos .b {
   background-color: #37a6ff;
   padding-top: 4rem;
   margin-right: 1rem;
   width: 210px;
+  animation-name: animate2;
+  animation-duration: 3s;
+}
+
+@keyframes animate2 {
+  0% {
+    background-color: #fff53d;
+  }
+  50% {
+    background-color: #37a6ff;
+  }
+  100% {
+    background-color: #37a6ff;
+  }
 }
 .photos .c {
   background-color: #37a6ff;
   padding-top: 4rem;
   width: 240px;
+  animation-name: animate3;
+  animation-duration: 3.5s;
 }
-
+@keyframes animate3 {
+  0% {
+    background-color: #fff53d;
+  }
+  60% {
+    background-color: #37a6ff;
+  }
+  100% {
+    background-color: #37a6ff;
+  }
+}
 #secondbanner h1 {
   display: block;
   margin-top: 15%;
