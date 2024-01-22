@@ -19,5 +19,5 @@ function prevSlide() {
 
 document.addEventListener("DOMContentLoaded", () => {
   showSlide(currentSlide);
-  setInterval(nextSlide, 3000); // 3초마다 자동 슬라이드
+  setInterval(nextSlide, 5000); // 3초마다 자동 슬라이드
 });
