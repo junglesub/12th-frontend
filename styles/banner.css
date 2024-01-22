@@ -3,6 +3,7 @@
 }
 .banner-3 h3 {
   font-size: 30px;
+  padding-top: 60px;
 }
 
 .slider {
@@ -12,19 +13,25 @@
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
-  background-image: no-repeat url("");
   width: 100%;
   font-family: "Pretendard-Regular", Arial, Helvetica, sans-serif; /*폰트 추가*/
 }
 .slide {
   float: left;
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
 .banner-3 {
-  text-align: center;
-  padding-top: 60px;
+  background-image: url("../img/banner3img.jpg");
+  /* background-image: url("../img/banner3img2.jpg"); */
+}
+.banner-3 img {
+  width: 45%;
+}
+.image {
+  padding-top: 1%;
 }
 
 /* second banner */
