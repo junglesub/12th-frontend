@@ -7,7 +7,7 @@ const members = [
     title: "Just do it",
     githuNickname: "skwldwld",
     selfPR:
-      "다른 생각으로 발전해나가는 개발자, 이한나입니다. \n3주간의 기간 동안 협력하여 우리만의 프로젝트를 완성시켜 나가겠습니다.🔥\n‘당당한 개발자, 새로운 개발자’ 모습에 한 발자국 더 가까워져 있는 모습을 기대합니다.👊🏻",
+      "일단 그냥 해보는 개발자, 김예지입니다.\n어렵고 힘들어보여도 하고 싶은 일이라면\n겁먹고 포기하기보다는 도전해보는 편입니다.\n아직 많이 부족하지만, 멋사에서 다양한 경험을 하며\n여러분들과 함께 성장하고 싶습니다!😝",
     linkColor: "blue",
     titlCcolor: "red",
     githuNicknameColor: "pink",
