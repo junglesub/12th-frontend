@@ -8,6 +8,9 @@ const members = [
     githuNickname: "Leehannaa",
     selfPR:
       "다른 생각으로 발전해나가는 개발자, 이한나입니다. \n3주간의 기간 동안 협력하여 우리만의 프로젝트를 완성시켜 나가겠습니다.🔥\n‘당당한 개발자, 새로운 개발자’ 모습에 한 발자국 더 가까워져 있는 모습을 기대합니다.👊🏻",
+    linkColor: "blue",
+    titlCcolor: "red",
+    githuNicknameColor: "pink",
   },
   {
     name: "🎀 김하은",
@@ -122,6 +125,14 @@ members.map((memberData) => {
   node
     .querySelector(".card-banner > img")
     .setAttribute("src", memberData.image);
+
+  // 각 member 별로 color 지정하기
+  node.querySelector(".info-link > a").style.backgroundColor =
+    memberData.linkColor;
+  node.querySelector(".info-github > a").style.backgroundColor =
+    memberData.githuNicknameColor;
+  node.querySelector(".info-introduce > p").style.backgroundColor =
+    memberData.titlCcolor;
 
   node
     .querySelector(".card-banner")
