@@ -153,8 +153,9 @@ img {
 }
 
 .image {
+  height: 97%;
   backdrop-filter: blur(3px);
-  /* padding-top: 1%; */
+  padding-top: 1%;
   background-color: rgba(0, 0, 0, 0.316);
 }
 .image span {
