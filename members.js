@@ -8,7 +8,7 @@ const members = [
     githuNickname: "skwldwld",
     selfPR:
       "일단 그냥 해보는 개발자, 김예지입니다.\n어렵고 힘들어보여도 하고 싶은 일이라면\n겁먹고 포기하기보다는 도전해보는 편입니다.\n아직 많이 부족하지만, 멋사에서 다양한 경험을 하며\n여러분들과 함께 성장하고 싶습니다!😝",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(229, 249, 128, 0.4)",
   },
@@ -21,7 +21,7 @@ const members = [
     githuNickname: "HansungJang",
     selfPR:
       "저는 말하기 좋아하고,\n음식을 좋아하는 개발자 장한성입니다.\n퀵커머스와 시니어 비즈니스와 관련된\n주제에 관심이 많답니다.\n저는 자료조사에 뛰어나고 열정이 엄청나답니다.\n멋쟁이사자처럼에서\n다양한 개발 경험을 쌓기를 희망하고 있어요!\n잘 부탁드립니다!😁",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(249, 239, 128, 0.6)",
   },
@@ -34,7 +34,7 @@ const members = [
     githuNickname: "Leehannaa",
     selfPR:
       "다른 생각으로 발전해나가는 개발자, 이한나입니다. \n3주간의 기간 동안 협력하여 우리만의 프로젝트를 완성시켜 나가겠습니다.🔥\n‘당당한 개발자, 새로운 개발자’ 모습에 한 발자국 더 가까워져 있는 모습을 기대합니다.👊🏻",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(219, 249, 128, 0.4)",
   },
@@ -47,7 +47,7 @@ const members = [
     githuNickname: "hwan129",
     selfPR:
       "포기하지 않고 개발하는 심성환입니다!\n아직 많이 부족하지만, 궁금한 것을 넘어가지 않고, 막히더라도 끝까지 도전하여 포기하지 않고 배워서 \n성장한 모습 보여드리겠습니다!😤",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(243, 249, 128, 0.6)",
   },
@@ -60,7 +60,7 @@ const members = [
     githuNickname: "dkrehd0519",
     selfPR:
       "상상력이 풍부한 개발자 임종현입니다😄\n끊임없이 기본을 다지고 효율적인 방법을 모색해서\n더 나은 개발자가 되려고 노력하겠습니다!💻\n꿈을 꾸기만 하는 것이 아니라\n현실로 이뤄내는 사람이 되겠습니다. 😎",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(249, 239, 128, 0.4)",
   },
@@ -73,7 +73,7 @@ const members = [
     githuNickname: "Leehannaa",
     selfPR:
       "다른 생각으로 발전해나가는 개발자, 이한나입니다. \n3주간의 기간 동안 협력하여 우리만의 프로젝트를 완성시켜 나가겠습니다.🔥\n‘당당한 개발자, 새로운 개발자’ 모습에 한 발자국 더 가까워져 있는 모습을 기대합니다.👊🏻",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(249, 227, 128, 0.4)",
   },
@@ -86,7 +86,7 @@ const members = [
     githuNickname: "sungyu0309",
     selfPR:
       "끊임없이 노력하는 개발자, 한선규입니다.\n목표를 달성하기 위해, 문제를 해결하기 위해\n부딪히고 노력하며\n결국 누구보다 빛나는 개발자가 되고 싶습니다!\n언제나 변화에 적응하기 위해 끊임없이 배워나가는 프론트엔드 개발자가 되겠습니다!",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(239, 249, 128, 0.6)",
   },
@@ -99,7 +99,7 @@ const members = [
     githuNickname: "YearaChoi",
     selfPR:
       "열정으로 가득차 있는 개발자, 최예라입니다.\n멋사에서 프로젝트를 진행하며\n'why?'라는 질문을 던지고,\n호기심을 해결하는 과정에서 더 성장하고 싶습니다!\n프론트 뉴비인만큼 언제든지\n새로운 것을 배워나갈 준비가 되어있답니다 🫡",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(223, 249, 128, 0.4)",
   },
@@ -112,7 +112,7 @@ const members = [
     githuNickname: "ejPark43",
     selfPR:
       "매사에 시간을 많이 쏟는 개발자 박은주 입니다.\n프로젝트를 할 때 생각보다 더 많은 시간을 투자하는 편이라 진행 속도가 느리지만, 계속해서 코드를 짜고 공부하면서 익숙하고 빠르게 코드를 짜는\n개발자가 되기 위해 노력할 것입니다.\n스스로의 실력을 믿고\n포기하지 않고 나아가는 사람이 되겠습니다!🙌",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(241, 249, 128, 0.5)",
   },
@@ -125,7 +125,7 @@ const members = [
     githuNickname: "Hayoung04",
     selfPR:
       "안녕하세요, 열심히 노력하는 개발자 김하영입니다.\n계속해서 질문하고, 공부하다 보면\n결국 제가 해결하고자 하는 문제를\n해결할 수 있다고 생각합니다.\n이제는 노력을 넘어\n실력도 쌓아가는 아기 사자가 되겠습니다! 🫡",
-    linkColor: "rgba(55, 166, 255, 0.5)",
+    linkColor: "rgba(0, 85, 255, 0.4)",
     githuNicknameColor: "rgba(120, 195, 255, 0.5)",
     titlCcolor: "rgba(241, 249, 128, 0.5)",
   },
