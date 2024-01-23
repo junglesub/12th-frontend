@@ -2,9 +2,10 @@
   border: 5px solid;
   background-color: black;
   padding-bottom: 30px;
+  font-family: "JalnanGothic";
 }
 
-/*LOGO ������*/
+/*LOGO 이미지 설정*/
 .footer #likelionLogo-footer {
   float: left;
   height: 30px;
@@ -18,7 +19,7 @@
   font-weight: 958;
 }
 
-/*�Ҽ�, �ּ� ���� ����*/
+/*소속, 주소 설명 요인*/
 .footer #likelionAddress-footer {
   line-height: 1.5;
   font-size: 1rem;
@@ -27,12 +28,12 @@
   line-height: 0.8;
 }
 
-/*�߰����� ����ó*/
+/*추가적인 연락처*/
 .footer #likelionContact-footer {
   position: relative;
 }
 
-/*li��� �ʱ�ȭ*/
+/*li요소 초기화*/
 .footer #likelionContact-footer li {
   margin: 0;
   padding: 0;
@@ -65,7 +66,7 @@ a {
   background: url("https://i.ibb.co/GMZVSv2/Result.png") -60px 0;
 }
 
-/*���콺 �����Ͱ� ���˵Ǿ����� hoverȿ��*/
+/*마우스 포인터가 접촉되었을때 hover효과*/
 .footer #github a:hover {
   background: url("https://i.ibb.co/GMZVSv2/Result.png") 0 -30px;
 }
