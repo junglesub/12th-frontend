@@ -1,6 +1,8 @@
 .footer {
+  padding-left: 10px;
   border: 5px solid;
   background-color: black;
+  padding-top: 5px;
   padding-bottom: 30px;
   font-family: "JalnanGothic";
 }
@@ -13,7 +15,7 @@
   max-width: 100%;
 }
 
-#title-footer {
+.footer #title-footer {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 958;
@@ -77,4 +79,7 @@ a {
 
 .footer #web-official a:hover {
   background: url("https://i.ibb.co/GMZVSv2/Result.png") -60px -30px;
+}
+
+.footer #navigation {
 }
