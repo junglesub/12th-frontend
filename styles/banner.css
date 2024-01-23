@@ -1,12 +1,11 @@
 /*setting*/
 .slider {
-  width: 90%;
+  width: 100%;
   height: 450px;
   /* border: 2px solid black; */
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
-  width: 100%;
   font-family: "Pretendard-Regular", Arial, Helvetica, sans-serif; /*폰트 추가*/
 }
 .slide {
@@ -26,7 +25,7 @@
   width: 100%;
   height: 450px;
   background: no-repeat url("../assets/img_banner/111.jpeg") 0 / cover;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .slider #firsttexts {
@@ -95,7 +94,7 @@
 
 .slider #secondbanner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   background-color: #fff53d;
 }
 
@@ -109,7 +108,8 @@
 .slider .photos .a {
   background-color: #37a6ff;
   padding-top: 4rem;
-  margin-left: 2rem;
+  padding-bottom: 0px;
+  margin-left: 5rem;
   margin-right: 1rem;
   width: 220px;
   animation-name: animate1;
@@ -164,16 +164,16 @@
     background-color: #37a6ff;
   }
 }
-.slider #secondbanner h1 {
+.slider #secondtexts h1 {
   display: block;
-  margin-top: 15%;
-  margin-left: 40px;
+  margin-top: 13%;
+  margin-bottom: 10%;
   color: black;
   font-weight: 700;
   font-size: 3rem;
-  text-align: right;
+  text-align: center;
   line-height: 1.5;
-  width: 400px;
+  width: 100%;
 }
 
 .slider #secondtexts span {
@@ -182,9 +182,70 @@
   background-color: #37a6ff;
 }
 
-.slider img {
+.slider #secondbanner img {
   border-top: 10px solid white;
   border-bottom: 10px solid white;
+}
+
+@media (max-width: 1145px) {
+  .slider #secondbanner {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+
+  .slider .photos .a {
+    margin-left: 5%;
+    padding-top: 50%;
+    width: 100%;
+    margin-right: 10%;
+  }
+  .slider .photos .b {
+    padding-top: 50%;
+    width: 100%;
+    margin-right: 10%;
+  }
+  .slider .photos .c {
+    padding-top: 50%;
+    width: 100%;
+  }
+
+  .slider #secondtexts h1 {
+    padding-top: 15px;
+    font-size: 1.9rem;
+    justify-content: center;
+    line-height: 180%;
+  }
+}
+
+@media (max-width: 400px) {
+  .slider .photos .a {
+    margin-left: 75%;
+    padding-top: 1.2rem;
+    width: 170%;
+  }
+
+  .slider .photos .b {
+    margin-left: 75%;
+    padding-top: 0;
+    width: 170%;
+  }
+
+  .slider .photos .c {
+    margin-left: 75%;
+    padding-top: 0;
+    width: 170%;
+  }
+
+  .slider #secondtexts h1 {
+    padding-top: 50%;
+    font-size: 1.5rem;
+    line-height: 200%;
+    width: 100%;
+  }
+  .slider #secondbanner img {
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+  }
 }
 
 /*banner 3*/
