@@ -53,9 +53,6 @@
   }
 }
 
-.slider .blur {
-  /* filter: blur(2px); */
-}
 .slider .banner-1 #filsttexts {
   height: 97%;
   padding-top: 1%;
@@ -197,15 +194,45 @@
   border-bottom: 10px solid white;
 }
 
+@media (max-width: 1145px) {
+  .slider #secondbanner {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+
+  .slider .photos .a {
+    margin-left: 5%;
+    padding-top: 50%;
+    width: 100%;
+    margin-right: 10%;
+  }
+  .slider .photos .b {
+    padding-top: 50%;
+    width: 100%;
+    margin-right: 10%;
+  }
+  .slider .photos .c {
+    padding-top: 50%;
+    width: 100%;
+  }
+
+  .slider #secondtexts h1 {
+    padding-top: 15px;
+    font-size: 1.9rem;
+    justify-content: center;
+    line-height: 180%;
+  }
+}
+
 /*banner 3*/
 .slider .banner-3 h2 {
-  font-size: 60px;
+  font-size: 250%;
   text-decoration: solid;
   /* text-shadow: -2px 0px #37a6ff, 0px 2px #37a6ff, 2px 0px #37a6ff,
   0px -2px #37a6ff; */
 }
 .slider .banner-3 h3 {
-  font-size: 40px;
+  font-size: 300%;
   padding-top: 40px;
 }
 .slider .banner-3 {
@@ -224,8 +251,10 @@
 }
 
 .slider .image {
-  height: 97%;
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+
+  height: 97%;
   padding-top: 1%;
   background-color: rgba(0, 0, 0, 0.316);
 }
@@ -265,43 +294,19 @@
   }
 }
 
-/*
-@media (max-width: 400px) {
-  .slider .photos .a {
-    margin-left: 75%;
-
-    grid-column: 1;
-    grid-row: 1 / span 1;
-    padding-top: 1.2rem;
-    width: 170%;
+@media (width < 1000px) {
+  .slider .banner-3 h2 {
+    font-size: 40px;
+    border-bottom: 5px;
   }
-
-  .slider .photos .b {
-    margin-left: 75%;
-    padding-top: 0;
-    grid-column: 1;
-    grid-row: 2;
-    width: 170%;
+  .slider .banner-3 h3 {
+    font-size: 30px;
   }
-
-  .slider .photos .c {
-    margin-left: 75%;
-    padding-top: 0;
-    width: 170%;
-    grid-column: 1;
-    grid-row: 3 / span 3;
+  .slider .banner-3 .image {
+    padding-top: 50px;
   }
-
-  .slider #secondtexts h1 {
-    padding-top: 50%;
-
-    font-size: 1.5rem;
-    grid-column: 2;
-
-    line-height: 200%;
+  .slider .banner-3 .rect {
+    background-size: 90% 100%;
+    background-image: url("../assets/img_banner/banner3img.jpg");
   }
-  .slider #secondbanner img {
-    border-top: solid 2px white;
-    border-bottom: solid 2px white;
-  }
-} */
+}
