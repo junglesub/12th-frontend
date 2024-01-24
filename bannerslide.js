@@ -1,4 +1,4 @@
-let currentSlide = 0;
+let currentSlide = 1;
 const slides = document.querySelectorAll(".slide");
 const slideCount = slides.length;
 
@@ -19,5 +19,5 @@ function prevSlide() {
 
 document.addEventListener("DOMContentLoaded", () => {
   showSlide(currentSlide);
-  setInterval(nextSlide, 4000); // 3초마다 자동 슬라이드
+  // setInterval(nextSlide, 4000); // 3초마다 자동 슬라이드
 });
