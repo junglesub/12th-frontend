@@ -1,2 +1,80 @@
 .footer {
+  border: 5px solid;
+  background-color: black;
+  padding-bottom: 30px;
+  font-family: "JalnanGothic";
+}
+
+/*LOGO 이미지 설정*/
+.footer #likelionLogo-footer {
+  float: left;
+  height: 30px;
+  display: block;
+  max-width: 100%;
+}
+
+#title-footer {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 958;
+}
+
+/*소속, 주소 설명 요인*/
+.footer #likelionAddress-footer {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 0.8;
+}
+
+/*추가적인 연락처*/
+.footer #likelionContact-footer {
+  position: relative;
+}
+
+/*li요소 초기화*/
+.footer #likelionContact-footer li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+.footer #likelionContact-footer li,
+.footer a {
+  height: 30px;
+  display: block;
+}
+
+.footer #github {
+  left: 0px;
+  width: 30px;
+  background: url("https://i.ibb.co/GMZVSv2/Result.png") 0 0;
+}
+
+.footer #instargram {
+  left: 30px;
+  width: 30px;
+  background: url("https://i.ibb.co/GMZVSv2/Result.png") -30px 0;
+}
+
+.footer #web-official {
+  left: 60px;
+  width: 30px;
+  background: url("https://i.ibb.co/GMZVSv2/Result.png") -60px 0;
+}
+
+/*마우스 포인터가 접촉되었을때 hover효과*/
+.footer #github a:hover {
+  background: url("https://i.ibb.co/GMZVSv2/Result.png") 0 -30px;
+}
+
+.footer #instargram a:hover {
+  background: url("https://i.ibb.co/GMZVSv2/Result.png") -30px -30px;
+}
+
+.footer #web-official a:hover {
+  background: url("https://i.ibb.co/GMZVSv2/Result.png") -60px -30px;
 }

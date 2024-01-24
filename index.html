@@ -30,16 +30,17 @@
       </div>
 
       <ul class="header__menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">About us</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#likelion-banner">Home</a></li>
+        <li><a href="#likelion-members">About us</a></li>
+        <li><a href="#likelionContact-footer">Contact</a></li>
       </ul>
 
       <a href="#" class="header__toogleBtn">
         <i class="fa-solid fa-bars"></i>
       </a>
     </nav>
-    <div class="slider">
+
+    <div id="likelion-banner" class="slider">
       <div class="slide">
         <div class="banner-1">
           <div class="container">
@@ -98,17 +99,11 @@
         </div>
       </div>
     </div>
-    <div class="members">
+    <!-- GRID 영역 -->
+    <div id="likelion-members" class="members">
       <div class="member-card template">
         <div class="card-banner">
-          <a
-            class="link-a"
-            href="https://github.com/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img src="#" alt="card-banner" />
-          </a>
+          <img src="#" alt="card-banner" />
         </div>
         <div class="member-info">
           <div class="info-left">
@@ -119,8 +114,7 @@
                 href="https://github.com/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
-                https://github.com/
+                >페이지
               </a>
             </div>
           </div>
@@ -129,15 +123,67 @@
               href="https://github.com/"
               target="_blank"
               rel="noreferrer noopener"
-            >
-              <img src="assets/github.svg" alt="Github"
-            /></a>
+              >github
+            </a>
           </div>
+          <div class="info-introduce"><p>화이팅!</p></div>
         </div>
       </div>
     </div>
+    <!-- GRID 영역 -->
+    <div class="modal">
+      <div class="modal_body">
+        <div class="modal_img">
+          <img src="#" alt="modal_img" />
+        </div>
+        <div class="modal_introduce">
+          <div class="modal_title">modal_title</div>
+          <div class="modal_selfPR">modal_selfPR</div>
+        </div>
+      </div>
+    </div>
+    <!-- 모달 -->
     <div class="footer">
-      <em>이것은 푸터이다!</em>
+      <!--<em>이것은 푸터이다!</em>-->
+      <img
+        id="likelionLogo-footer"
+        src="https://i.ibb.co/PxJNskS/Likelion.jpg"
+      />
+      <span id="title-footer">LikeLion Frontend</span>
+
+      <div id="likelionAddress-footer">
+        <p>
+          <span>(주)멋쟁이사자처럼</span>
+          |
+          <span>한동대학교</span>
+          |
+          <span>Front-End</span>
+        </p>
+        <p>경상북도 포항시 북구 흥해읍 한동로 558</p>
+      </div>
+
+      <div id="likelionContact-footer">
+        <ul>
+          <li id="github">
+            <a
+              href="https://github.com/LikeLionHGU"
+              title="멋쟁이사자처럼 Github"
+            ></a>
+          </li>
+          <li id="instargram">
+            <a
+              href="https://www.instagram.com/likelion_hgu/"
+              title="멋쟁이사자처럼 instargram"
+            ></a>
+          </li>
+          <li id="web-official">
+            <a
+              href="https://hgulikelion.web.app/"
+              title="멋쟁이사자처럼 공식 홈페이지"
+            ></a>
+          </li>
+        </ul>
+      </div>
     </div>
     <script src="bannerslide.js"></script>
   </body>
