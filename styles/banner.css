@@ -25,6 +25,7 @@
   width: 100%;
   height: 450px;
   background: no-repeat url("../assets/img_banner/111.jpeg") 0 / cover;
+  background-position: center;
   /* z-index: 1; */
 }
 
@@ -33,11 +34,12 @@
   height: 100%;
   color: #fff53d;
   background-color: rgba(0, 0, 0, 0.316);
-  /* animation-name: textanimate;
-  animation-duration: 3s; */
   animation: Color 5s linear infinite;
   -webkit-animation: Color 5s ease-in-out infinite;
   backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes Color {
@@ -61,8 +63,8 @@
 
 .slider .banner-1 h1 {
   position: absolute;
-  left: 27.5%;
-  top: 10%;
+
+  background-position: center;
   z-index: 2;
   text-align: center;
   padding-top: 40px;
