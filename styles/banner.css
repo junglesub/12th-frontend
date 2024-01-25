@@ -1,2 +1,226 @@
-.banner {
+/*setting*/
+.slider {
+  width: 90%;
+  height: 450px;
+  /* border: 2px solid black; */
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  font-family: "Pretendard-Regular", Arial, Helvetica, sans-serif; /*폰트 추가*/
+}
+.slide {
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/*first banner*/
+
+.slider .container {
+  display: flex;
+}
+
+.slider .box {
+  width: 100%;
+  height: 450px;
+  background: no-repeat url("../assets/img_banner/111.jpeg") 0 / cover;
+  z-index: 1;
+}
+
+.slider #firsttexts {
+  width: 100%;
+  height: 100%;
+  color: #fff53d;
+  background-color: rgba(0, 0, 0, 0.316);
+  /* animation-name: textanimate;
+  animation-duration: 3s; */
+  animation: Color 5s linear infinite;
+  -webkit-animation: Color 5s ease-in-out infinite;
+  backdrop-filter: blur(3px);
+}
+
+@keyframes Color {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  30% {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  100% {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.slider .blur {
+  /* filter: blur(2px); */
+}
+.slider .banner-1 #filsttexts {
+  height: 97%;
+  padding-top: 1%;
+  background-color: rgba(0, 0, 0, 0.316);
+}
+
+.slider .banner-1 h1 {
+  position: absolute;
+  left: 24%;
+  top: 10%;
+  z-index: 2;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 60px;
+}
+
+.slider .banner-1 > h1 > span {
+  color: hsl(207, 100%, 61%);
+}
+
+/* second banner */
+
+.slider .rect {
+  background-color: white;
+  margin: auto;
+  font-family: "Pretendard-Regular", Arial, Helvetica, sans-serif;
+  height: 450px;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.slider #secondbanner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff53d;
+}
+
+.slider #secondphotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.slider #secondphotos img {
+  width: 100%;
+}
+.slider .photos .a {
+  background-color: #37a6ff;
+  padding-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  width: 220px;
+  animation-name: animate1;
+  animation-duration: 2s;
+}
+@keyframes animate1 {
+  0% {
+    background-color: #fff53d;
+  }
+  50% {
+    background-color: #37a6ff;
+  }
+  100% {
+    background-color: #37a6ff;
+  }
+}
+.slider .photos .b {
+  background-color: #37a6ff;
+  padding-top: 4rem;
+  margin-right: 1rem;
+  width: 210px;
+  animation-name: animate2;
+  animation-duration: 3s;
+}
+
+@keyframes animate2 {
+  0% {
+    background-color: #fff53d;
+  }
+  50% {
+    background-color: #37a6ff;
+  }
+  100% {
+    background-color: #37a6ff;
+  }
+}
+.slider .photos .c {
+  background-color: #37a6ff;
+  padding-top: 4rem;
+  width: 240px;
+  animation-name: animate3;
+  animation-duration: 3.5s;
+}
+@keyframes animate3 {
+  0% {
+    background-color: #fff53d;
+  }
+  60% {
+    background-color: #37a6ff;
+  }
+  100% {
+    background-color: #37a6ff;
+  }
+}
+.slider #secondbanner h1 {
+  display: block;
+  margin-top: 15%;
+  margin-left: 40px;
+  color: black;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: right;
+  line-height: 1.5;
+  width: 400px;
+}
+
+.slider #secondtexts span {
+  padding: 4px;
+  color: #fff53d;
+  background-color: #37a6ff;
+}
+
+.slider img {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+}
+
+/*banner 3*/
+.slider .banner-3 h2 {
+  font-size: 60px;
+  text-decoration: solid;
+  /* text-shadow: -2px 0px #37a6ff, 0px 2px #37a6ff, 2px 0px #37a6ff,
+  0px -2px #37a6ff; */
+}
+.slider .banner-3 h3 {
+  font-size: 40px;
+  padding-top: 40px;
+}
+.slider .banner-3 {
+  padding: 0;
+}
+.slider .banner-3 .rect {
+  background-image: url("../assets/img_banner/banner3img.jpg"),
+    url("../assets/img_banner/banner3img2.jpg");
+  background-size: 50% 100%, 50% 100%;
+  background-position: 0px 45%, 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-family: "Pretendard-Regular", Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.slider .image {
+  height: 97%;
+  backdrop-filter: blur(3px);
+  padding-top: 1%;
+  background-color: rgba(0, 0, 0, 0.316);
+}
+.slider .image span {
+  /* background-color: #37a6ff; */
+  padding-left: 5px;
+  padding-right: 5px;
 }

@@ -1,3 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font-family: 'Noto Sans', sans-serif; */
+
+html,
+body {
+  margin: 0;
+  max-width: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
-  text-align: center;
+  margin: 0;
+  font-family: "JalnanGothic", sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 8px 40px;
+}
+
+.header__logo {
+  font-size: 32px;
+}
+
+.header__logo img {
+  vertical-align: middle;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.header__menu {
+  display: flex;
+  font-size: 17px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.header__menu li {
+  padding: 8px 25px;
+}
+
+.header__menu li:hover {
+  background-color: #fff53d;
+  border-radius: 4px;
+}
+
+.header__menu li:hover a {
+  color: black;
+}
+
+.header__toogleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: #fff53d;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 24px;
+  }
+  .header__menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header__toogleBtn {
+    display: block;
+  }
 }

@@ -16,26 +16,94 @@
       referrerpolicy="no-referrer"
     />
     <script src="members.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/6112c358fb.js"
+      crossorigin="anonymous"
+    ></script>
     <title>멋사 12기 프론트엔드</title>
   </head>
   <body>
-    <div class="header">
-      <h1>우리들이 만드는 멋사 프론트 페이지</h1>
+    <nav class="header">
+      <div class="header__logo">
+        <img src="./img/likelion header.jpg" alt="" />
+        <a href="#">LikeLion Frontend</a>
+      </div>
+
+      <ul class="header__menu">
+        <li><a href="#likelion-banner">Home</a></li>
+        <li><a href="#likelion-members">About us</a></li>
+        <li><a href="#likelionContact-footer">Contact</a></li>
+      </ul>
+
+      <a href="#" class="header__toogleBtn">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+
+    <div id="likelion-banner" class="slider">
+      <div class="slide">
+        <div class="banner-1">
+          <div class="container">
+            <div class="box blur">
+              <div id="firsttexts">
+                <h1>
+                  안녕하세요 <br /><br />저희는 <span>프론트엔드팀</span>입니다.
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="banner-2">
+          <div class="rect" id="secondbanner">
+            <div class="photos" id="secondphotos">
+              <!-- <span class="a"><img src="img/secondbanner_a.jpeg" /></span> -->
+              <span class="a"
+                ><img src="assets/img_banner/secondbanner_a.jpg"
+              /></span>
+              <span class="b"
+                ><img src="assets/img_banner/secondbanner_b.jpeg"
+              /></span>
+              <span class="c"
+                ><img src="assets/img_banner/secondbanner_c.jpg"
+              /></span>
+            </div>
+
+            <div id="secondtexts">
+              <h1>
+                저희는 멋사에서<br /><span>MZ</span>와
+                <span>귀여움</span>,<br />
+                그리고 <span>발랄함</span>을<br />
+                담당하고 있어요
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="banner-3">
+          <div class="rect">
+            <div class="image">
+              <div id="back">
+                <h3>
+                  한낱 개발자인 우리가 <span>mz</span>가 될 수 있었던 비결은..?
+                </h3>
+                <h2><span>프론트엔드</span>가 궁금하시다면?</h2>
+                <h3>⏬캡션참조⏬</h3>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="img/banner3img.jpg" />
+            <img src="img/banner3img2.jpg" /> -->
+        </div>
+      </div>
     </div>
-    <div class="banner">
-      <h2>아주 멋진 패너</h2>
-    </div>
-    <div class="members">
+    <!-- GRID 영역 -->
+    <div id="likelion-members" class="members">
       <div class="member-card template">
         <div class="card-banner">
-          <a
-            class="link-a"
-            href="https://github.com/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img src="#" alt="card-banner" />
-          </a>
+          <img src="#" alt="card-banner" />
         </div>
         <div class="member-info">
           <div class="info-left">
@@ -46,8 +114,7 @@
                 href="https://github.com/"
                 target="_blank"
                 rel="noreferrer noopener"
-              >
-                https://github.com/
+                >페이지
               </a>
             </div>
           </div>
@@ -56,14 +123,26 @@
               href="https://github.com/"
               target="_blank"
               rel="noreferrer noopener"
-            >
-              <img src="assets/github.svg" alt="Github"
-            /></a>
+              >github
+            </a>
           </div>
+          <div class="info-introduce"><p>화이팅!</p></div>
         </div>
       </div>
     </div>
-
+    <!-- GRID 영역 -->
+    <div class="modal">
+      <div class="modal_body">
+        <div class="modal_img">
+          <img src="#" alt="modal_img" />
+        </div>
+        <div class="modal_introduce">
+          <div class="modal_title">modal_title</div>
+          <div class="modal_selfPR">modal_selfPR</div>
+        </div>
+      </div>
+    </div>
+    <!-- 모달 -->
     <div class="footer">
       <!--<em>이것은 푸터이다!</em>-->
       <img
@@ -82,7 +161,11 @@
         </p>
         <p>경상북도 포항시 북구 흥해읍 한동로 558</p>
       </div>
-
+      <div id="navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <div id="likelionContact-footer">
         <ul>
           <li id="github">
@@ -106,5 +189,6 @@
         </ul>
       </div>
     </div>
+    <script src="bannerslide.js"></script>
   </body>
 </html>
