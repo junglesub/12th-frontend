@@ -80,6 +80,7 @@
   margin: auto;
   font-family: "Pretendard-Regular", Arial, Helvetica, sans-serif;
   height: 450px;
+  word-break: keep-all;
 }
 @font-face {
   font-family: "Pretendard-Regular";
